@@ -1,3 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, option, button {
+  display: block;
+  margin: 10px 0 20px;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: yellow;
+  background-color: red;
+  width: 100%;
+}
+
+button {
+  color: red;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+button:hover {
+  color: yellow;
+  background-color: red;
+}
+
 .jumbotron {
   background: #532F8C;
   color: white;
